@@ -16,8 +16,6 @@ set cursorline
 set relativenumber
 set rnu
 
-echo "test"
-
 filetype plugin on
 set omnifunc=syntaxcomplete#Complete
 
