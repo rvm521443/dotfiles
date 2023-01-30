@@ -20,3 +20,4 @@ filetype plugin on
 set omnifunc=syntaxcomplete#Complete
 
 ab ifmain if __name__ == '__main__':
+
