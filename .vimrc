@@ -13,9 +13,10 @@ set showcmd
 
 set cursorline
 
-set relativenumber
-set rnu
+set number relativenumber
+:set nu rnu
 
 filetype plugin on
 set omnifunc=syntaxcomplete#Complete
 
+ab ifmain if __name__ == '__main__':
