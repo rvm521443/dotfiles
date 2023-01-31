@@ -14,10 +14,19 @@ set showcmd
 set cursorline
 
 set number relativenumber
-:set nu rnu
+set nu rnu
 
 filetype plugin on
 set omnifunc=syntaxcomplete#Complete
 
 ab ifmain if __name__ == '__main__':
+
+set timeoutlen=5000
+nnoremap <leader>w :w<cr>
+nnoremap <leader>W :wq<cr>
+nnoremap <leader>q :q<cr>
+nnoremap <leader>Q :q!<cr>
+nnoremap <leader>vs :source %<cr>
+nnoremap <leader>. :e ~/.vimrc<cr>
+nnoremap <leader>t. :e ~/.termux/termux.properties<cr>
 
