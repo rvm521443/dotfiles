@@ -5,3 +5,5 @@ alias pd=pushd
 alias pp=popd
 alias upg='apt update && apt upgrade'
 
+set -o vi
+
