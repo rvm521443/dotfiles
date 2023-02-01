@@ -9,7 +9,6 @@ if has("autocmd")
 endif
 
 set tabstop=4
-
 set expandtab
 set linebreak
 
@@ -26,6 +25,7 @@ set omnifunc=syntaxcomplete#Complete
 ab ifmain if __name__ == '__main__':
 
 let mapleader = ","
+
 set timeoutlen=5000
 
 nnoremap <leader>w :w<cr>
