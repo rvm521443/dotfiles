@@ -24,7 +24,7 @@ set omnifunc=syntaxcomplete#Complete
 
 ab ifmain if __name__ == '__main__':
 
-let mapleader = ","
+let mapleader = " "
 
 set timeoutlen=5000
 
