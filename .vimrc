@@ -34,5 +34,5 @@ nnoremap <leader>.v :e ~/.vimrc<cr>
 nnoremap <leader>.b :e ~/.bashrc<cr>
 nnoremap <leader>.t :e ~/.termux/termux.properties<cr>
 
-let g:SuperTabDefaultCompletionType = 'context'
+nnoremap <leader>U :!git restore %
 
