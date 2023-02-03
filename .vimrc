@@ -28,7 +28,9 @@ let mapleader = " "
 set timeoutlen=5000
 
 nnoremap <leader>w :w<cr>
+nnoremap <leader>W :wq<cr>
 nnoremap <leader>q :q<cr>
+nnoremap <leader>Q :q!
 
 nnoremap <leader>.v :e ~/.vimrc<cr>
 nnoremap <leader>.b :e ~/.bashrc<cr>
