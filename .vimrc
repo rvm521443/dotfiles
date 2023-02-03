@@ -25,7 +25,6 @@ set omnifunc=syntaxcomplete#Complete
 ab ifmain if __name__ == '__main__':
 
 let mapleader = " "
-
 set timeoutlen=5000
 
 nnoremap <leader>w :w<cr>
@@ -34,4 +33,6 @@ nnoremap <leader>q :q<cr>
 nnoremap <leader>.v :e ~/.vimrc<cr>
 nnoremap <leader>.b :e ~/.bashrc<cr>
 nnoremap <leader>.t :e ~/.termux/termux.properties<cr>
+
+let g:SuperTabDefaultCompletionType = 'context'
 
